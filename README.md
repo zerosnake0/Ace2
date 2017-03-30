@@ -16,12 +16,12 @@ to avoid extra table creating cost, but the PC today are much more powerful so I
 ```lua
 function _foo(param, arg)
     ...
-    _foo([param, arg)
+    _foo(param, arg)
     ...
 
 function foo(param, ...)
     ...
-    _foo(param, arg)  -- arg is the variable argument table
+    _foo(param, unpack(arg))  -- arg is the variable argument table
     ...
 ```
 
@@ -56,7 +56,7 @@ AceLibrary|LibStub
 AceLocale-2.0,2.1,2.2|AceLocale-3.0,3.1
 AceOO-2.0|-
 AceTab-2.0|AceTab-3.0
--|AceConfig-3.0
--|AceGUI-3.0
+Dewdrop-2.0, Waterfall-1.0|AceConfig-3.0
+Waterfall-1.0 (partialy)|AceGUI-3.0
 -|AceSerializer-3.0
 -|CallbackHandler-1.0

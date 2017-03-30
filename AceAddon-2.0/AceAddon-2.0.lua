@@ -1,4 +1,4 @@
---[[
+﻿--[[
 Name: AceAddon-2.0
 Revision: $Rev: 17957 $
 Developed by: The Ace Development Team (http://www.wowace.com/index.php/The_Ace_Development_Team)
